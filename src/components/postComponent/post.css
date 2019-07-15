@@ -1,0 +1,43 @@
+article {
+  background-color: white;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #fff;
+  margin-bottom: 30px;
+  padding: 20px;
+  width: 100%; 
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+article:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+article span.remove {
+  display: block;
+  position: absolute;
+  right: 10px;
+  top: 0;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: 700;
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;
+  -khtml-user-select: none; 
+  -moz-user-select: none; 
+  -ms-user-select: none;
+  user-select: none;
+}
+
+article span.remove:hover {
+  color: red;
+}
+
+.titlePost {
+  font-size: 25px;
+  text-align: center;
+}

@@ -1,0 +1,24 @@
+.comment {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  border-left: 1px solid black;
+  margin-bottom: 30px;
+  margin-left: 25px;
+  padding-left: 10px;
+}
+
+.commentList h1 {
+  display: block;
+  width: 200px;
+  margin: auto;
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: 700;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
+}
+

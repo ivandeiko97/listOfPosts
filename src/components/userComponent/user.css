@@ -1,0 +1,23 @@
+.user li {
+  list-style-type: none;
+  font-size: 17px;
+}
+
+.user ul {
+  padding: 0;
+}
+
+.infoUser {
+  display: flex;
+  align-items: center;
+}
+
+.infoUser > span {
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.infoUser:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
