@@ -40,7 +40,8 @@ export default function postApp(state = initialState, action) {
     case REMOVE_POST:
       return {
         ...state,
-        listPosts: state.listPosts.filter(post => post.id !== action.id)
+        searchedPosts: state.searchedPosts.filter(post => post.id !== action.id),
+        listPosts: state.listPosts.filter(post => post.id !== action.id),
       }
     case REMOVE_COMMENT: 
       return {

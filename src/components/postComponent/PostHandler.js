@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import Post from './Post';
-import { removeAction } from '../../redux/action';
+import { removeAction, findAction } from '../../redux/action';
 
 function mapPropsToState(state, ownProps) {
   return {
@@ -11,7 +11,7 @@ function mapPropsToState(state, ownProps) {
 
 function mapDispatchToProps(dispatch) {
   return {
-    remove: (id) => dispatch(removeAction(id))
+    remove: (id) => dispatch(removeAction(id)),
   }
 };
 
