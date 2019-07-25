@@ -23,7 +23,7 @@ export default class postList extends Component {
                 <IconLoupe/>
                 <input 
                   className="searchInput"
-                  onKeyDown={(e) => this.searchItem(e)}
+                  onKeyUp={(e) => this.searchItem(e)}
                   type="text"
                   placeholder="Search"
                 />
